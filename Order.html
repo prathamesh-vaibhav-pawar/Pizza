@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Order.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="Order.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1 class="head">!Place order!</h1>
+        <br><br>
+        <div class="container">
+            <h2>Please Seclect the Pizza </h2><br><br>
+            <p>These are some Best rated Pizza:</p><br><br>
+                <div class="Pizza">
+                    <input type="text" placeholder="Pizza" id="Pizz">
+                    <br><br>
+                    <button class="bt btn btn-primary" onclick="Sub_pizza()">-</button><input type="number" id="NUm_pizza"><button class="bt btn btn-primary" onclick="Add_pizza()">+</button>
+                  </div>
+              <br><br>
+              <div class="Crust">
+                <h2>Please Seclect Size:</h2>
+                <br><br>
+                <input type="text" placeholder="Size of Pizza" id="Size"><br>
+                <p>here are some best Size for your Pizza</p><br>
+                  <button class="btn" onclick="Cheese_burst()"><span class="glyphicon glyphicon-ok-circle" id="Chees"></span>Cheese burst</button>
+                  <button class="btn" onclick="new_hand_tossed()"><span class="glyphicon glyphicon-ok-circle" id="Toss"></span>New Hand Tossed</button>
+                  <button class="btn" onclick="Fresh_Pan_Pizza()"><span class="glyphicon glyphicon-ok-circle" id="Pan_p"></span>Fresh Pan Pizza</button>
+                  <br>
+                </div>
+              <br><br>
+                <div class="Toppings">
+                    <h2>Seclect Toppings</h2><br>
+                    <input type="text" placeholder="Size of Pizza" id="Toppings"><br>
+                    <p>here are some toppings recommended for you</p><br>   
+                  <button class="btn" onclick="Grilled_Mushroom()"><span class="glyphicon glyphicon-ok-circle" id="Mush"></span>Grilled Mushroom</button>
+                  <button class="btn" onclick="Panner()"><span class="glyphicon glyphicon-ok-circle" id="Pann"></span>Panner</button>
+                  <button class="btn"  onclick="Black_Olive()"><span class="glyphicon glyphicon-ok-circle" id="Blackol"></span>Black Olive</button>
+                </div>
+              </div>
+              <br><br>
+              
+              <button class="btn" onclick="Confirm()">Confirm this Order</button>
+              
+        </div>
+    </center>
+    </body>
+</html>

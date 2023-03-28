@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Add.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="Add.js"></script>
+    </head>
+    <body onload="get_data()"> 
+        <br><br>
+        <br><br><br><br>
+        <center>
+        <div class="container">
+            <h2>Just fill up the details</h2>
+            <h2>Name: <input type="text" placeholder="Name" id="Name"></h2>
+            <br><br>
+            <h2>Phone NUmber: <input type="tel" placeholder="Phone NUmber" id="Num"></h2>
+            <br><br>
+            <h2>Address: <input type="text" placeholder="address" id="Add"></h2>
+            <br><br>
+            <div class="Totl">
+                <h2 id="Pizza"></h2>
+                <h2 id="S_totl"></h2>
+                <h2 id="T-Totl"></h2>
+                <h2 id="Your_totl"></h2>
+            </div>
+            <button class="btn" onclick="Save_data()">Set Order</button> 
+        </div>
+    </center>
+    </body>
+</html>
